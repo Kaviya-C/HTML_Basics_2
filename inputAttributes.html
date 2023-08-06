@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+      <title>InputAttributes</title>
+      <meta name="viewport" content="width=width-device ,initial-scale=1.0">
+</head>
+      <body>
+        <form>
+          <span>Value attribute in input--We can change the input value</span>
+          <br>
+            <br>
+              <label for="first">FirstName</label>
+              <input type="text" name="firstname" id="first" value="Kaviya">
+                <br>
+                  <br>
+                    <label for="last">LastName</label>
+                    <input type="text" name="lastname" id="last" value="Chinnakavan">
+                      <br>
+                        <br>
+                          <hr>
+                            <span>ReadOnly attribute in input-- we can't change the value<br>whenever we place the cursor
+        on the text box it will show this is active</span>
+                              <br>
+                                <br>
+                                  <label for="first">FirstName</label>
+                                  <input type="text" name="firstname" id="first" value="Kaviya" readonly><br><br>
+                                  <label for="last">LastName</label>
+                                  <input type="text" name="lastname" id="last" value="Chinnakavan">
+                                    <br>
+                                      <br>
+                                        <hr>
+                                          <span>disabled attribute in input--completely disabled we can't see the hover on the text box</span>
+                                          <br>
+                                            <br>
+                                              <label for="first">FirstName</label>
+                                              <input type="text" name="firstname" id="first" value="Kaviya" disabled><br><br>
+                                              <label for="last">LastName</label>
+                                              <input type="text" name="lastname" id="last" value="Chinnakavan">
+                                                <br>
+                                                  <br>
+                                                    <hr>
+                                                      <span>size attribute in input-specify the visible width{not the no of characters}we can use<br>
+        this size for input type="tel",search,url,email,password,</span>
+                                                        <br>
+                                                          <br>
+                                                            <label for="first">FirstName</label>
+                                                            <input type="text" name="firstname" id="first" size="50">
+                                                              <br>
+                                                                <br>
+                                                                  <hr>
+                                                                    <span>maxlength attribute in input --specify how many character user have to enter</span>
+                                                                    <br>
+                                                                      <br>
+                                                                        <label for="pinno">PIN</label>
+                                                                        <input type="text" name="pin" id="pinno" maxlength="6">
+                                                                          <br>
+                                                                            <br>
+                                                                              <hr>
+                                                                                <span>autofocus attribute in input--used for intimating the user to enter the input to this place
+        <br>eg:if u open the page it prompt u that mean cursor is blink in particular place to enter the value</span>
+                                                                                  <br>
+                                                                                    <br>
+                                                                                      <label for="first">FirstName</label>
+                                                                                      <input type="text" name="firstname" id="first" autofocus><br><br><hr>
+                                                                                      <span>
+                                                                                        <mark>formenctype="text/plain"</mark> this means not encoding [not commonly used]<br>
+        send the form data as plain text where name and value pair is seperated by line break<br>Rarely used
+        [not suitable for file uploads]</span>
+                                                                                          <br>
+                                                                                            <br>
+                                                                                              <hr>
+                                                                                                <span>
+                                                                                                  <mark>formenctype="multipart/form-data"</mark> this is typically used for file uploads
+        <br>it indicates form data will be encoded as a series of parts include binary data as well as 
+        regular form fields</span>
+                                                                                                  <br>
+                                                                                                    <br>
+                                                                                                      <hr>
+                                                                                                        <span>
+                                                                                                          <mark>formenctype="application/x-www-form-urlencoded"</mark>default value used for regular form submissions
+        <br>It encode the form data in url encoded format <br>
+        where space replaced with + signs and special characters replaced with percent encoded</span>
+                                                                                                            <br>
+                                                                                                              <br>
+                                                                                                                <hr>
+      
+      
+      </form>
+                                                                                                              </body>
+                                                                                                            </html>
